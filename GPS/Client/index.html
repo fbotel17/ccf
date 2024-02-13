@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='src/css/index.css'>
+    <link rel='stylesheet' type='text/css' href='src/css/map.css'>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js'></script>
+    <title>ISERVER - GPS</title>
+</head>
+<body>
+    <div id="container">
+        <h1 class="title">ISERVER - GPS</h1>
+        <div id="connexion" class="sub-container">
+            <div class="form">
+                <h2 class="title">Connexion</h2>
+                <form>
+                    <input type="text" id="serverName" placeholder="Entrez l'adresse IP du serveur" required>
+                    <input type="text" id="hostName" placeholder="Entrez l'adresse IP de la BDD" required>
+                    <input type="text" id="userName" placeholder="Entrez l'identifiant de la BDD" required>
+                    <input type="password" id="password" placeholder="Entrez le MDP de la BDD" required>
+                    <input type="text" id="dbName" placeholder="Entrez votre nom de table" required>
+                    <input type="button" id="connect" value="Se Connecter">
+                </form>
+            </div>
+        </div>
+        <div id="table" class="sub-container">
+            <div class="table">
+                <form>
+                    <input type="button" id="disconnect" value="Se Déconnecter">
+                </form>
+                <form>
+                    <input type="button" id="serial" value="Serial">
+                    <input type="button" id="tcp" value="TCP">
+                </form>
+                <h2 class="title">Coordonnées</h2>
+                <div class="map">
+                    <div id='map'></div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src='src/js/api.js'></script>
+    <script type="text/javascript" src="src/js/socket.js"></script>
+</body>
+</html>

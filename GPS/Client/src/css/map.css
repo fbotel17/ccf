@@ -1,0 +1,28 @@
+.map{
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+#map{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.mapboxgl-popup-content{
+    max-width: 200px;
+    color: black;
+}
+
+.mapbox-popup-content h3{
+    text-align: center;
+}

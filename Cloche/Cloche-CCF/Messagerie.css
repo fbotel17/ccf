@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+#form {
+    background: rgba(0, 0, 0, 0.15);
+    padding: 0.25rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 4rem;
+    backdrop-filter: blur(10px);
+}
+
+form {
+    /*margin-top: 20px;*/
+    background-color: #fff;
+    /*padding: 40px 60px;*/
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+form h1 {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+form p.choose-email {
+    text-align: center;
+}
+
+form .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input[type='text'],
+input[type='password'] {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    outline: none;
+    margin-bottom: 15px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+form p.PageInscription {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #878787;
+    text-align: center;
+}
+
+form a.changement_page {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #878787;
+    text-align: center;
+}
+
+form button {
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    background-color: cornflowerblue;
+    outline: none;
+    cursor: pointer;
+}
+
+.ListeCloche {
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    border: 1px solid #A7A9AC;
+    background: #E9EAEB;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #ccc;
+    padding: 1%;
+    margin: 5%;
+    margin-right: 10%;
+}
+
+.Cloche {
+    height: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 2%;
+    float: none;
+    line-height: 15px;
+    color: #58595B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 10%;
+    border: 1px solid #A7A9AC;
+    background: #E9EAEB;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #ccc;
+    display: inline-block;
+}
+
+.Delay {
+    padding: 10px;
+    margin: 3%;
+    width: 15%;
+    border: 1px solid #A7A9AC;
+    background: #E9EAEB;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #ccc;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.ImageCloche {
+    width: 90%;
+    height: 80%;
+}
+
+h5 {
+    font-family: 'Maiden Orange', Arial, serif;
+    /*Police du texte*/
+    font-size: 18px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.Liste {
+    width: 10%;
+    align-items: center;
+    border: 1px solid #A7A9AC;
+    background: #E9EAEB;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #ccc;
+}
+
+.input {
+    width: 90%;
+    margin: 3%;
+}
+
+.Melodie {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.NormalListeCloche {
+    text-align: center;
+    width: 60%;
+    position: relative;
+    border: 1px solid #A7A9AC;
+    background: #E9EAEB;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #ccc;
+    padding: 1%;
+    margin: 5%;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    right: -8%;
+}
+
+.NormalCloche {
+    height: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 2%;
+    float: none;
+    line-height: 15px;
+    color: #58595B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 12%;
+    border: 1px solid #A7A9AC;
+    background: #E9EAEB;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #ccc;
+    display: inline-block;
+}
+
+.changement_page {
+    text-decoration: none;
+}
+
+.head {
+    height: 50px;
+    width: 80%;
+    /*background-image: url("mh.jpg");*/
+    /*background-color: #202225cb;*/
+    line-height: 2em;
+    color: brown;
+    font-size: 150%;
+    font-family: Impact, fantasy;
+    margin: 0%;
+    display: inline-block;
+}
+
+.deco {
+    height: 50px;
+    width: 20%;
+    float: right;
+    background-size: 100%;
+    vertical-align: baseline;
+    line-height: 50%;
+    margin: 0%;
+}
+
+.monzgeg {
+    width: 100%;
+    height: 50px;
+}
+
+h2 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.grand {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+#center {
+    margin: 0 auto;
+    width: 100px;
+}
